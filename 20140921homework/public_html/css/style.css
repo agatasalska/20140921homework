@@ -1,7 +1,8 @@
 body {
-    width: 760px;
+    width: 1000px;
     background-color: white;
     margin: 0 auto;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
 }
 
 .blue {
@@ -17,12 +18,15 @@ body {
 
 .logo {
     display: inline-block;
-    font-family: Arial, Verdana, Tahoma, sans-serif;
     font-size: 27px;
     font-weight: bold;
     color: ivory;
     text-decoration: none;
-    margin: 0 50px 0 66px;
+    margin-left: 120px;
+}
+
+nav {
+    margin-left: 170px;
 }
 
 header div nav {
@@ -45,7 +49,6 @@ header div nav ul li {
 
 header div nav ul li a{
     display: inline-block;
-    font-family: Arial, Verdana, Tahoma, sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: ivory;
@@ -64,8 +67,45 @@ header div nav ul li a:hover {
 
 .left_align{
     width: 551px;
+    margin-left: 120px;
 }
 
 .right_align {
     width: 175px;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    padding-top: 0;
+    font-size: 46px;
+}
+
+.upper, .bottom {
+    display: block;
+    border-bottom: 2px dashed grey;
+    text-align: right;
+    color: grey;
+    list-style: none;
+    font-size: 15px;
+    width: 175px;
+    padding-left: 0;
+}
+
+.bottom {
+    margin-bottom: 0;
+}
+
+.upper {
+    margin-top: 48px;
+}
+
+.list_title {
+    background-color: black;
+    text-align: left;
+    color: lightgray;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 35px;
 }
