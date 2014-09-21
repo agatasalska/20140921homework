@@ -1,0 +1,71 @@
+body {
+    width: 760px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.blue {
+    background-color: #1493b3;
+    border-top: 15px solid black;
+    border-bottom: 2px dashed ivory;
+    padding: 20px 0;
+}
+
+.under_dashed {
+    border-bottom: 15px solid #1493b3;
+}
+
+.logo {
+    display: inline-block;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: ivory;
+    text-decoration: none;
+    margin: 0 50px 0 66px;
+}
+
+header div nav {
+    display: inline-block;
+    color: ivory;
+    text-decoration: none;
+    padding: 0;
+}
+
+header div nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header div nav ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+header div nav ul li a{
+    display: inline-block;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: ivory;
+    padding: 0;
+    margin-left: 50px;
+}
+
+header div nav ul li a:hover {
+    font-weight: bold;
+}
+
+.left_align, .right_align {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.left_align{
+    width: 551px;
+}
+
+.right_align {
+    width: 175px;
+}
